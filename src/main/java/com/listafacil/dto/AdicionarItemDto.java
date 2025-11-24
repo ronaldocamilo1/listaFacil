@@ -8,7 +8,7 @@ public class AdicionarItemDto {
     public AdicionarItemDto(String nomeProduto, double precoUnitario, int quantidade) {
         this.nomeProduto = nomeProduto;
         this.precoUnitario = precoUnitario;
-        this.quantidade = quantidade;
+        this.quantidade = quantidade;.
     }
 
     public String getNomeProduto() { return nomeProduto; }
