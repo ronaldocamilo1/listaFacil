@@ -21,5 +21,6 @@ public class Item {
     public void setQuantidade(int quantidade) { this.quantidade = quantidade; }
     public boolean isComprado() { return comprado; }
     public void setComprado(boolean comprado) { this.comprado = comprado; }
+
 }
 
