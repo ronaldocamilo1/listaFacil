@@ -52,6 +52,6 @@ public class ListaService {
         Item it = l.buscarItem(idItem);
         if (it == null) throw new NotFoundException("Item não encontrado: " + idItem);
         it.setComprado(!it.isComprado());
-        repository.salvar(l);
+        repository.salvar(l);.
     }
 }
